@@ -1,110 +1,79 @@
-# 🚀 ConectaTudo — Painel de pedidos e atendimento para pequenos negócios
+# ConectaTudo
 
-O **ConectaTudo** é um sistema web desenvolvido para ajudar pequenos negócios a organizarem seus pedidos e atendimentos de forma simples, prática e eficiente.
+O **ConectaTudo** é um projeto acadêmico desenvolvido com o objetivo de propor uma solução prática para a organização de pedidos e atendimentos em pequenos negócios.
 
-Muitos empreendedores locais, como padarias, floriculturas, mercadinhos e lojas de bairro, enfrentam problemas com desorganização no atendimento, perda de pedidos, demora nas respostas e dificuldade para acompanhar o andamento das vendas.  
-O ConectaTudo foi pensado para resolver esse cenário com uma solução acessível e funcional.
+A ideia do sistema surgiu a partir de uma dificuldade comum em estabelecimentos locais, como padarias, floriculturas, mercadinhos e lojas de bairro, que muitas vezes realizam seus atendimentos de forma manual ou pouco estruturada. Esse cenário pode gerar atrasos nas respostas, perda de pedidos, falhas de comunicação e dificuldade no acompanhamento do andamento das vendas.
 
----
+Diante desse contexto, o ConectaTudo foi pensado como uma aplicação web simples, funcional e acessível, voltada para centralizar informações importantes do atendimento em um único ambiente, contribuindo para uma rotina mais organizada e eficiente.
 
-## 🎯 Objetivo do Projeto
+## Objetivo do projeto
 
-Desenvolver uma aplicação web que permita:
+Desenvolver uma aplicação web capaz de auxiliar pequenos empreendedores no controle de clientes e pedidos, permitindo uma gestão mais clara do processo de atendimento.
 
-- Cadastrar clientes
-- Registrar pedidos
-- Atualizar o status dos pedidos
-- Visualizar pedidos em um painel simples
-- Organizar melhor o atendimento de pequenos negócios
+## Proposta da solução
 
----
+A proposta do ConectaTudo é oferecer um painel de gerenciamento no qual seja possível registrar clientes, cadastrar pedidos e acompanhar o status de cada solicitação de forma simples. Dessa maneira, o sistema busca reduzir erros operacionais, melhorar a organização interna e tornar o atendimento mais ágil.
 
-## 💡 Proposta da Solução
-
-O sistema centraliza as informações mais importantes do atendimento em um só lugar, permitindo que o pequeno empreendedor tenha mais controle sobre os pedidos realizados e o histórico de cada cliente.
-
-Com isso, o negócio ganha mais organização, reduz erros operacionais e melhora a experiência de atendimento.
-
----
-
-## 🧩 Funcionalidades do MVP
+## Funcionalidades principais
 
 - Cadastro de clientes
 - Cadastro de pedidos
-- Listagem de pedidos
-- Atualização de status do pedido
-- Histórico básico do cliente
+- Visualização dos pedidos registrados
+- Atualização de status dos pedidos
+- Histórico básico de clientes
 
-### Fluxo de status dos pedidos
+## Fluxo de pedidos
+
+Os pedidos poderão ser acompanhados por meio de etapas simples, permitindo melhor controle do processo:
 
 - **Novo**
 - **Em preparo**
 - **Em entrega**
 - **Concluído**
 
----
+## Público-alvo
 
-## 👥 Público-alvo
+O sistema é direcionado a pequenos negócios que necessitam de uma solução simples para organizar atendimentos e pedidos, como:
 
-O ConectaTudo é voltado para pequenos negócios, como:
+- padarias
+- floriculturas
+- mercados de bairro
+- lojas pequenas
+- prestadores de serviços locais
 
-- Padarias
-- Floriculturas
-- Mercados de bairro
-- Lojas pequenas
-- Serviços locais
+## Tecnologias utilizadas
 
----
+O projeto será desenvolvido com tecnologias amplamente utilizadas no desenvolvimento web, permitindo aprendizado prático e aplicação de conceitos full stack:
 
-## 🧱 Stack Tecnológica
+- **React** para a construção da interface
+- **Node.js** para a execução do backend
+- **Express.js** para criação das rotas e da API
+- **MySQL** para armazenamento dos dados
+- **CSS** para estilização da aplicação
+- **Git e GitHub** para versionamento
 
-- **React** — interface do usuário
-- **Node.js** — ambiente de execução do backend
-- **Express.js** — criação das rotas e API
-- **MySQL** — armazenamento dos dados
-- **CSS** — estilização da interface
-- **Git e GitHub** — versionamento do projeto
+## Status do projeto
 
----
+Atualmente, o projeto encontra-se em fase de desenvolvimento, com foco na construção de um **MVP** (Produto Mínimo Viável), contendo as funcionalidades essenciais para validar a proposta do sistema.
 
-## 🚧 Status do Projeto
+## Roadmap
 
-📌 **Em desenvolvimento**
-
-Atualmente, o foco está na construção do MVP, com as funcionalidades essenciais para cadastro, organização e acompanhamento de pedidos.
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Criar estrutura inicial do backend com Node.js e Express
+- [ ] Estruturar o backend com Node.js e Express
 - [ ] Modelar o banco de dados
-- [ ] Criar cadastro de clientes
-- [ ] Criar cadastro de pedidos
-- [ ] Implementar atualização de status
-- [ ] Desenvolver painel administrativo simples
-- [ ] Melhorar a interface e usabilidade
+- [ ] Implementar cadastro de clientes
+- [ ] Implementar cadastro de pedidos
+- [ ] Desenvolver atualização de status
+- [ ] Criar painel administrativo inicial
+- [ ] Refinar a interface e a experiência do usuário
 
----
+## Finalidade acadêmica
 
-## 🎓 Finalidade do Projeto
+Além de propor uma solução para um problema real, o ConectaTudo também possui finalidade acadêmica, servindo como instrumento de aprendizagem e prática em desenvolvimento de sistemas. Com ele, é possível aplicar conhecimentos relacionados à criação de interfaces, desenvolvimento de APIs, integração com banco de dados e organização de regras de negócio.
 
-Este projeto também tem como objetivo fortalecer habilidades práticas em desenvolvimento full stack, envolvendo:
+## Autor
 
-- criação de interfaces com React
-- construção de APIs com Node.js e Express
-- integração com banco de dados
-- organização de regras de negócio
-- desenvolvimento de uma solução voltada para um problema real
+Desenvolvido por **Ribeiroz**, estudante de Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento web e na criação de soluções tecnológicas aplicadas a necessidades do cotidiano.
 
----
-
-## ✨ Autor
-
-Desenvolvido por **Ribeiroz**, estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e criação de soluções úteis para problemas do dia a dia.
-
----
-
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença **MIT**.
