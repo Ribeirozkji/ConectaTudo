@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/dashboard";
-import Clientes from "./pages/clientes";
-import Mensagens from "./pages/mensagens";
-import Pedidos from "./pages/pedidos";
+import Dashboard from "./pages/Dashboard";
+import Clientes from "./pages/Clientes";
+import Mensagens from "./pages/Mensagens";
+import Pedidos from "./pages/Pedidos";
 
 function App() {
   return (
